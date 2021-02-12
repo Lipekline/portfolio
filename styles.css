@@ -1,11 +1,18 @@
+:root{
+    transition: 0.6s;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-/* HEADER --------------------------------------------------------------- */
+body{
+    background: #f0f2f5;
+}
 
+/* HEADER --------------------------------------------------------------- */
 ul{
     list-style-type: none;
   }
@@ -45,8 +52,10 @@ ul{
       background: #F2F0F5;
       border-radius: 2px;
       width: 100%;
-      opacity: 0.9;
+      position: fixed;
+      opacity: 0.97;
   }
+
 
   header h1{
     font-family: 'Pacifico', cursive;
@@ -119,17 +128,18 @@ ul{
 }
 
   /* MAIN ------------------------------------- */
-
   .apresentacao{
       width: 100%;
-      height: 40rem;
-      background: #f0f2f5;
       display: flex;
       flex-direction: row;
+      background: 
+      -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%),
+     -webkit-linear-gradient(-30deg, rgba(120, 155, 255, 0.9) 50%, rgba(55, 230, 235, 1) 0%);
   }
   .saudacao{
      margin-top: 7%;
       margin-left: 5%;
+      padding-top: 5%;
   }
   .saudacao h1{
       font-size: 60px;
@@ -139,14 +149,13 @@ ul{
       margin-left: 5rem;
       font-style: italic;
       font-weight: 400;
-      color: #99ccff;
+      color: rgba(55, 230, 235, 1);
   }
   .card{
+    margin-left: 5%;
     width: 600px;
-    height: 590px;
-    border-radius: 100%;
-    background: #cce6ff;
-    overflow: hidden;
+    height: 590px; 
+    margin-top: 5%;
 
   }
   .card img{
@@ -156,10 +165,10 @@ ul{
   .projetos{
       width: 100%;
       height: 40rem;
-      background: purple;
+      background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
   }
   .contato{
       width: 100%;
       height: 40rem;
-      background: pink;
   }
