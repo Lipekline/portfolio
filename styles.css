@@ -134,7 +134,7 @@ ul{
       flex-direction: row;
       background: 
       -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%),
-     -webkit-linear-gradient(-30deg, rgba(120, 155, 255, 0.9) 50%, rgba(55, 230, 235, 1) 0%);
+     -webkit-linear-gradient(-30deg, #666666 50%,  #1a1a1a 0%);
   }
   .saudacao{
      margin-top: 7%;
@@ -149,7 +149,7 @@ ul{
       margin-left: 5rem;
       font-style: italic;
       font-weight: 400;
-      color: rgba(55, 230, 235, 1);
+      color: #f2f5f7;
   }
   .card{
     margin-left: 5%;
